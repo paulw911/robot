@@ -12,12 +12,12 @@ module ToyRobot
 		end
 
 		def place line
-			params = Common::place_new line,@table.size
+			params = Common::robot_place line,@table.size
 			@robot.position = Position.new(params.fetch(:x),params.fetch(:y),params.fetch(:facing)) unless params.empty?
 		end
 
 		def move
-			new_position = Common::move @robot.position, @table.size unless @robot.position.nil?
+			new_position = Common::robot_move @robot.position, @table.size unless @robot.position.nil?
 			@robot.position = new_position unless new_position.nil?
 		end
 
@@ -26,11 +26,11 @@ module ToyRobot
 		end
 
 		def left
-			@robot.position.facing = Common::left @robot.position unless @robot.position.nil?
+			@robot.position.facing = Common::robot_left @robot.position unless @robot.position.nil?
 		end
 
 		def right
-			@robot.position.facing = Common::right @robot.position unless @robot.position.nil?
+			@robot.position.facing = Common::robot_right @robot.position unless @robot.position.nil?
 		end
 
 	end
