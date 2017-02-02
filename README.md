@@ -1,11 +1,7 @@
 TOYROBOT
 ========
-
-Description:
------------
 * ToyRobot is a command line application which enables a robot to be placed and moved around a table. 
 * This is based on the Toy Robot coding exercise created by Jon Eaves. 
-
 
 <p>Licensing information</p>
 ```
@@ -34,6 +30,8 @@ to check your ruby version run:
 $ ruby -v
 ```
 
+Application Installation
+---
 <p>Application Installation</p>
 
 Pre-requisities
@@ -83,12 +81,11 @@ REPORT
 * A robot that is not on the table can choose the ignore the MOVE, LEFT, RIGHT and REPORT commands.
 * Input can be from a file, or from standard input, as the developer chooses. . Provide test data to exercise the application.
 
-Constraints:
-The toy robot must not fall off the table during movement. This also includes the ini8al placement of the toy robot.
-Any move that would cause the robot to fall must be ignored.
+<p>Constraints</p>
+* The toy robot must not fall off the table during movement. This also includes the ini8al placement of the toy robot.
+* Any move that would cause the robot to fall must be ignored.
 
-
-Example Input and Output:
+<p>Example Input and Output:</p>
 a)
 PLACE 0,0,NORTH
 MOVE
