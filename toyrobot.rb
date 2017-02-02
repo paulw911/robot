@@ -10,8 +10,6 @@ $stdin.each_line do |line|
 	command = ToyRobot::Common::extract_command line
 	if ToyRobot::Common::valid_command? command
 		case command
-		when 'exit'
-			exit 0
 		when 'place'
 			controller.place line
 		when 'left'

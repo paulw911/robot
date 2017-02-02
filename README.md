@@ -48,7 +48,7 @@ bundle install
 bundle exec rspec -f doc
 
 # Run the application providing input from the command line (STDIN)
-# (on OSX and Linux, exit by typing EXIT, or using CTRL + D to send an EOF character)
+# (on OSX and Linux or using CTRL + D to send an EOF character)
 ./toyrobot.rb
 
 # Or to use a file - refer to spec/integration for examples
@@ -121,27 +121,41 @@ Paul Williams
 <p>File List</p>
 ```
 .:
-
-README.md
-
+.ruby-gemset
+.ruby-version
 Gemfile
-
+Gemfile.lock
 Guardfile
-
+LICENSE
 Rakefile
+README.md
+toyrobot.rb
+```
 
+```
 ./lib
+common.rb
+controller.rb
+position.rb
+robot.rb
+table.rb
+toy_robot.rb
+```
 
+```
 ./spec
-```
-```
-/lib:
-filename.rb
-```
+common_spec.rb
+integration_spec.rb
+robot_spec.rb
+spec_helper.rb
+table_spec.rb
 ```
 
-/spec:
-filename_spec.rb
+```
+./spec/integration
+test_file_1
+test_file_2
+test_file_3
 ```
 
 <p><strong>Developer Notes</strong></p>

@@ -1,38 +1,41 @@
 require 'spec_helper'
-#require_relative './../lib/toy_robot.rb'
-#require_relative './../toyrobot.rb'
-#require_relative './../testfile.txt'
 
 describe "integration testing" do
 
-	it "returns the robot's final position" do
-		result = `ruby toyrobot.rb < testfile.txt`.chomp
-		expected_result = '2,2,NORTH'
-		expect(result).to eq(expected_result)
+	context "when toyrobot.rb commands loaded from test_file_1" do
+
+		let(:file1) { './spec/integration/test_file_1' }
+
+		it "returns the robot's final position" do
+			result = `ruby toyrobot.rb < #{file1}`.chomp
+			expected_result = '2,2,NORTH'
+			expect(result).to eq(expected_result)
+		end
+
 	end
 
-	# let(:file1) { '/spec/integration/test_file_1' }
+	context "when toyrobot.rb commands loaded from test_file_2" do
 
-	# it "returns the robot's final position" do
-	# 	result = 'toyrobot.rb < #{file1}'.chomp
-	# 	expected_result = '2,2,NORTH'
-	# 	expect(result).to eq(expected_result)
-	# end
+		let(:file2) { './spec/integration/test_file_2' }
 
-	# let(:file2) { '/spec/integration/test_file_2' }
+		it "returns the robot's final position" do
+			result = `ruby toyrobot.rb < #{file2}`.chomp
+			expected_result = '1,1,EAST'
+			expect(result).to eq(expected_result)
+		end
 
-	# it "returns the robot's final position" do
-	# 	result = 'ruby toyrobot.rb < #{file2}'.chomp
-	# 	expected_result = '2,2,NORTH'
-	# 	expect(result).to eq(expected_result)
-	# end
+	end
 
-	# let(:file3) { '/spec/integration/test_file_3' }
+	context "when toyrobot.rb commands loaded from test_file_3" do
 
-	# it "returns the robot's final position" do
-	# 	result = 'ruby toyrobot.rb < #{file3}'.chomp
-	# 	expected_result = '2,2,NORTH'
-	# 	expect(result).to eq(expected_result)
-	# end
+		let(:file3) { './spec/integration/test_file_3' }
+
+		it "returns the robot's final position" do
+			result = `ruby toyrobot.rb < #{file3}`.chomp
+			expected_result = '4,0,EAST'
+			expect(result).to eq(expected_result)
+		end
+
+	end
 
 end
