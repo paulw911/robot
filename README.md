@@ -11,8 +11,14 @@ Description:
 Licensing Information: see LICENSE
 ---------------------
 
-Project source can be downloaded from: https://github.com/paulw911/robot.git
----------------------
+
+<p>Project source</p>
+```
+<p>can be downloaded from:</p>
+https://github.com/paulw911/robot.git
+
+```
+
 
 <p>Environment</p>
 ```
