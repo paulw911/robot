@@ -52,9 +52,7 @@ bundle exec rspec -f doc
 ./toyrobot.rb
 
 # Or to use a file - refer to spec/integration for examples
-# or use the testfile provided in the project root directory (testfile.txt)
 ./toyrobot < path/to/test_file
-ruby toyrobot.rb < testfile.txt
 ```
 
 <p><b>Application Specification</b></p>
