@@ -113,16 +113,12 @@ REPORT
 Output: 3,3,NORTH
 ```
 
-
-
-
-
-Author & Contributor List
--------------------------
+<p>Author & Contributor List</p>
+```
 Paul Williams
+```
 
-File List
----------
+<p>File List</p>
 ```
 .:
 
@@ -148,7 +144,7 @@ filename.rb
 filename_spec.rb
 ```
 
-How to run file:
+
 
 
 
