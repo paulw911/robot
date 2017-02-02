@@ -1,24 +1,23 @@
-# robot README.md
-
 TOYROBOT
-==========
+========
 
 Description:
 -----------
 * ToyRobot is a command line application which enables a robot to be placed and moved around a table. 
 * This is based on the Toy Robot coding exercise created by Jon Eaves. 
 
-Licensing Information: see LICENSE
----------------------
 
+<p>Licensing information</p>
+```
+refer to project LICENSE file
+```
 
 <p>Project source</p>
 ```
-<p>can be downloaded from:</p>
+can be downloaded from:
+
 https://github.com/paulw911/robot.git
-
 ```
-
 
 <p>Environment</p>
 ```
