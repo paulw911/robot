@@ -146,10 +146,10 @@ filename_spec.rb
 
 <p><strong>Developer Notes</strong></p>
 
-<p>Having never written a command line application and worked very little with regular expressions and text processing in Ruby, I purchased and read 2 books: 
-(1) Text Processing with Ruby - Rob Miller - The Pragmatic Bookshelf; and
-(2) Build Awesome Command-Line Applications in Ruby 2
-Both of these books provided me with a good foundation to move forward with the command line interface component o the project (found in toyrobot.rb).</p>
+<p>Having never written a command line application and worked very little with regular expressions and text processing in Ruby, I purchased and read 2 books: </p>
+<p>(1) Text Processing with Ruby - Rob Miller - The Pragmatic Bookshelf; and</p>
+<p>(2) Build Awesome Command-Line Applications in Ruby 2</p>
+<p>Both of these books provided me with a good foundation to move forward with the command line interface component of the project (found in toyrobot.rb).</p>
 
 <p>After much (probably ignorant) deliberation and practise, I chose to construct 2 regular expressions using capture groups, which could be used (to provide clarity) instead of referencing the associated globals. These essentially covered the input requirements, but also allowed for some flexibility should the user inputs by slightly inaccurate. </p>
 
