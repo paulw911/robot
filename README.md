@@ -155,7 +155,7 @@ filename_spec.rb
 
 <p>In terms of the application, I validate each user command first, before calling any controller methods. Initially, I included error messages, to provide the user with clarity when incorrect inputs were entered, however I subsequently removed these as they were not included in the requirement. </p>
 
-<p>The Controller class (controller.rb), which is called from the toyrobot.rb application file, is 'the controller'. </p>
+<p>The Controller class (controller.rb), which is called from the toyrobot.rb application file, is 'the controller'. It's methods are the robot's commands. When an instance of the class is created, it's instance variables are a table and a robot.</p>
 
 <p>I used a Ruby module called Common (common.rb) to store much of the code which is 'commonly referenced' - to keep it in one place. </p>
 
