@@ -5,28 +5,29 @@ TOYROBOT
 
 Description:
 -----------
-ToyRobot is a command line application which enables a robot to be placed
-and move around a square grid based table. This is based on the Toy Robot coding exercise created by Jon Eaves. 
+* ToyRobot is a command line application which enables a robot to be placed and moved around a table. 
+* This is based on the Toy Robot coding exercise created by Jon Eaves. 
 
-Licensing Information: READ LICENSE
+Licensing Information: see LICENSE
 ---------------------
 
 Project source can be downloaded from: https://github.com/paulw911/robot.git
 ---------------------
 
-ENVIRONMENT
------------
+## ENVIRONMENT
+```
 This application was developed on: 
 
 OSX 10.12 x86_64 
 
-Ruby Version
-------------
+using ruby version: 
+
 ruby 2.4.0p0
 
 to check your ruby version run: 
 
 $ ruby -v
+```
 
 APPLICATION INSTALLATION
 ------------------------
