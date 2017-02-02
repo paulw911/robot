@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require './lib/toyrobot.rb'
+require './lib/toy_robot.rb'
 
 include ToyRobot::Common
 

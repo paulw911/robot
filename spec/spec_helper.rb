@@ -1,2 +1,2 @@
 require 'rspec'
-require_relative './../lib/toyrobot.rb'
+require_relative './../lib/toy_robot.rb'

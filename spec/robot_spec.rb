@@ -16,7 +16,7 @@ describe ToyRobot::Robot do
 		context "when a position is not specified" do
 			let(:robot) { ToyRobot::Robot.new() }
 			result = nil
-			it "the robot.position returns #{result}" do
+			it "the robot.position returns #{result.inspect}" do
 				expect(robot.position).to eq(result)
 			end
 		end

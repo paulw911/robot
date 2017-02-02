@@ -272,7 +272,7 @@ describe ToyRobot::Common do
 
 	end
 
-	describe "#command_place" do
+	describe "#robot_place" do
 
 		context "when the command entered is 'place 1,2,north'" do
 			command_line = 'place 1,2,north'
@@ -308,7 +308,7 @@ describe ToyRobot::Common do
 
 	end
 
-	describe "#move" do
+	describe "#robot_move" do
 
 		context "when x is 3, y is 3 and facing is 'east'" do
 			command_line = 'move'
@@ -352,7 +352,7 @@ describe ToyRobot::Common do
 
 	end
 
-	describe "#left" do
+	describe "#robot_left" do
 
 		context "when facing 'north'" do
 
@@ -412,7 +412,7 @@ describe ToyRobot::Common do
 
 	end
 
-	describe "#right" do
+	describe "#robot_right" do
 
 		context "when facing 'north'" do
 
