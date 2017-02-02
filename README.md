@@ -86,18 +86,23 @@ REPORT
 * Any move that would cause the robot to fall must be ignored.
 
 <p>Example Input and Output:</p>
+```
 a)
 PLACE 0,0,NORTH
 MOVE
 REPORT
 Output: 0,1,NORTH
- 
+```
+
+```
 b)
 PLACE 0,0,NORTH
 LEFT
 REPORT
 Output: 0,0,WEST
- 
+```
+
+```
 c)
 PLACE 1,2,EAST
 MOVE
@@ -106,6 +111,7 @@ LEFT
 MOVE
 REPORT
 Output: 3,3,NORTH
+```
 
 
 
