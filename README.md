@@ -34,16 +34,14 @@ to check your ruby version run:
 $ ruby -v
 ```
 
-APPLICATION INSTALLATION
-------------------------
+<p>Application Installation</p>
 
 Pre-requisities
----------------
-A 2.x ruby. If you have rbenv - rbenv install 2.x.x
-Bundler to run tests - gem install bundler
 
-Project source can be downloaded from: https://github.com/paulw911/robot.git
+* A 2.x ruby. If you have rbenv ```rbenv install 2.x.x```
+* Bundler to run tests ```gem install bundler```
 
+```
 # Clone the repository
 git clone git@github:paulw911/robot.git
 
@@ -59,6 +57,8 @@ bundle exec rspec -f doc
 # or use the testfile provided in the project root directory (testfile.txt)
 ./toyrobot < path/to/test_file
 ruby toyrobot.rb < testfile.txt
+
+```
 
 APPLICATION SPECIFICATION
 -------------------------
