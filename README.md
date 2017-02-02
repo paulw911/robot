@@ -144,7 +144,26 @@ filename.rb
 filename_spec.rb
 ```
 
+<p><strong>Developer Notes</strong></p>
+```
+Having never written a command line application and worked very little with regular expressions and text processing in Ruby, I purchased and read 2 books: 
+(1) Text Processing with Ruby - Rob Miller - The Pragmatic Bookshelf; and
+(2) Build Awesome Command-Line Applications in Ruby 2
+Both of these books provided me with a good foundation to move forward with the command line interface component o the project (found in toyrobot.rb).
+
+After much (probably ignorant) deliberation and practise, I chose to construct 2 regular expressions using capture groups, which could be used (to provide clarity) instead of referencing the associated globals. These essentially covered the input requirements, but also allowed for some flexibility should the user inputs by slightly inaccurate. 
+
+In terms of the application, I validate each user command first, before calling any controller methods. Initially, I included error messages, to provide the user with clarity when incorrect inputs were entered, however I subsequently removed these as they were not included in the requirement. 
+
+The Controller class (controller.rb), which is called from the toyrobot.rb application file, is 'the controller'. 
+
+I used a Ruby module called Common (common.rb) to store much of the code which is 'commonly referenced' - to keep it in one place. 
+
+To position the robot, I chose to use a Ruby Struct as I thought it was the simplest and easiest way of maintaining the robot position attributes (position.rb). 
+
+With regard to the table (table.rb), given it was square, I didn't see the need to introduce 2 attributes for x & y 'size', so I went with a single 'size'. 
+
+The Robot class gives the robot a 'position' and allows reporting of that position. 
 
 
-
-
+```
