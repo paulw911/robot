@@ -41,7 +41,7 @@ Pre-requisities
 
 ```
 # Clone the repository
-git clone git@github:paulw911/robot.git
+git clone https://github.com/paulw911/robot.git <other_name>
 
 # Run the specs
 bundle install
